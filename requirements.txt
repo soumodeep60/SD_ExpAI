@@ -1,3 +1,7 @@
-streamlit
-google-genai
-python
+streamlit==1.49.0
+google-genai==1.31.0
+pandas>=2.2
+python-dotenv>=1.0
+requests>=2.32
+# Force uninstall the junk PyPI "google" package if it sneaks in
+google==0.0
